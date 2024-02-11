@@ -27,7 +27,7 @@
             <url>https://maven.vaadin.com/vaadin-addons</url>
         </repository>
     </repositories>
-<<distributionManagement>
+<distributionManagement>
     <repository>
         <id>central</id>
         <name>ip-10-0-0-98-releases</name>

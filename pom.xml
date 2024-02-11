@@ -27,16 +27,16 @@
             <url>https://maven.vaadin.com/vaadin-addons</url>
         </repository>
     </repositories>
-<distributionManagement>
+<<distributionManagement>
     <repository>
         <id>central</id>
-        <name>ip-10-0-0-138-releases</name>
-        <url>http://43.205.118.173:8081/artifactory/libs-release-local</url>
+        <name>ip-10-0-0-98-releases</name>
+        <url>http://13.201.12.113:8081/artifactory/local-maven</url>
     </repository>
-        <snapshotRepository>
+    <snapshotRepository>
         <id>snapshots</id>
-        <name>ip-10-0-0-138-snapshots</name>
-        <url>http://43.205.118.173:8081/artifactory/libs-snapshot-local</url>
+        <name>ip-10-0-0-98-snapshots</name>
+        <url>http://13.201.12.113:8081/artifactory/local-maven</url>
     </snapshotRepository>
 </distributionManagement>
 

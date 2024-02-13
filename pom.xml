@@ -34,8 +34,7 @@
         <name>ip-10-0-0-76-releases</name>
         <url>http://13.233.162.147:8081/artifactory/libs-release-local</url>
     </repository>
-   </distributionManagement>
-   <distributionManagement>
+  
     <snapshotRepository>
         <id>snapshots</id>
         <name>ip-10-0-0-76-snapshots</name>

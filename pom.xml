@@ -29,10 +29,10 @@
     </repositories>
         
    <distributionManagement>
-    <repository>
+  <repository>
         <id>central</id>
-        <name>ip-10-0-0-76-releases</name>
-        <url>http://13.233.162.147:8081/artifactory/libs-release-local</url>
+        <name>ip-10-0-1-97-releases</name>
+        <url>http://65.0.101.81:8081/artifactory/libs-release-local</url>
     </repository>
   
      <snapshotRepository>

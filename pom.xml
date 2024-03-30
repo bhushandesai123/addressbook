@@ -65,7 +65,7 @@
         </dependency>
     </dependencies>
 
-    <build>
+<!--     <build>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -82,5 +82,28 @@
                 <version>9.2.3.v20140905</version>
             </plugin>
         </plugins>
-    </build>
+    </build> this build is regular below build is for the sonarqube
+     -->
+    <build>
+  <pluginManagement>
+    <plugins>
+      <plugin>
+        <groupId>org.sonarsource.scanner.maven</groupId>
+        <artifactId>sonar-maven-plugin</artifactId>
+        <version>3.6.0.1398</version>
+      </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>3.8.1</version>
+      </plugin>
+       <plugin>
+        <groupId>org.jacocco</groupId>
+        <artifactId>jacocco-maven-plugin</artifactId>
+        <version>0.8.4</version>
+      </plugin>
+      
+    </plugins>
+  </pluginManagement>
+</build> 
 </project>

@@ -84,7 +84,7 @@
              <plugin>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-war-plugin</artifactId>
-            <version>3.3.2</version> <!-- Update to a compatible version -->
+            <version>3.3.6</version> <!-- Update to a compatible version -->
         </plugin>
             <plugin>
                 <groupId>org.eclipse.jetty</groupId>
